@@ -6,7 +6,9 @@
 -->
 # aes-mysql-java
 
-MySQL offers robust encryption capabilities through its AES_ENCRYPT() function, which allows sensitive data to be securely stored. This project demonstrates how to integrate and decrypt such data using Java, enhancing data security in applications.
+MySQL offers robust encryption capabilities through its AES_ENCRYPT() function, which allows sensitive data to be securely stored. This project demonstrates how to integrate and decrypt such data using Java, enhancing data security in applications. 
+
+The application retrieves encrypted data from the MySQL database and decrypts it using Java. Decrypted data is printed to the console or can be integrated into your application logic.
 
 Features:
 
