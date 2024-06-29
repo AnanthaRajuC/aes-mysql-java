@@ -6,6 +6,24 @@
 -->
 # aes-mysql-java
 
+MySQL offers robust encryption capabilities through its AES_ENCRYPT() function, which allows sensitive data to be securely stored. This project demonstrates how to integrate and decrypt such data using Java, enhancing data security in applications.
+
+Features:
+
+- Decrypt MySQL AES encrypted data using Java.  
+- Utilize Spring Boot for application setup and MySQL connectivity.
+
+Prerequisites:
+
+Before you begin, ensure you have the following installed on your development environment:
+
+- Java Development Kit (JDK)  
+- Maven or Gradle build tool  
+- MySQL Server  
+- MySQL Workbench (optional, for database management)  
+
+The application retrieves encrypted data from the MySQL database and decrypts it using Java. Decrypted data is printed to the console or can be integrated into your application logic.
+
 <div align="center">
   <sub>Built with ❤︎ by <a href="https://twitter.com/anantharajuc">Anantha Raju C</a> and <a href="https://github.com/AnanthaRajuC/aes-mysql-java/graphs/contributors">contributors</a>
 </div>
